@@ -25,4 +25,10 @@ else
 LOCAL_C_INCLUDES += $(ANDROID_MEDIA_INC)/openmax
 endif
 
+LOCAL_CFLAGS += -Wno-unused-variable
+LOCAL_CFLAGS += -Wno-unused-parameter
+LOCAL_CFLAGS += -Wno-unused-function
+LOCAL_CFLAGS += -Wno-unused-label
+LOCAL_VENDOR_MODULE := true
+
 include $(BUILD_STATIC_LIBRARY)

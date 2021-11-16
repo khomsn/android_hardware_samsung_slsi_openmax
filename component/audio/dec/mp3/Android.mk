@@ -43,4 +43,6 @@ LOCAL_C_INCLUDES += $(ANDROID_MEDIA_INC)/openmax
 endif
 endif
 
+LOCAL_VENDOR_MODULE := true
+
 include $(BUILD_SHARED_LIBRARY)

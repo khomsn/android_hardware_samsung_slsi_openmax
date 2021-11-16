@@ -36,4 +36,6 @@ LOCAL_C_INCLUDES := $(EXYNOS_OMX_INC)/khronos \
 	$(EXYNOS_AUDIO_CODEC)/alp/include \
 	$(EXYNOS_AUDIO_CODEC)/ffmpeg/include
 
+LOCAL_VENDOR_MODULE := true
+
 include $(BUILD_SHARED_LIBRARY)
